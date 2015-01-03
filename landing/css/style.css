@@ -100,7 +100,8 @@ h1 {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  background: #17a185;
+  background: transparent;
+  /*background: #17a185;*/
   color: #fff;
 }
 .navbar-default .navbar-brand {
@@ -108,8 +109,9 @@ h1 {
   height: auto;
   display: block;
   font-size: 14px;
-  background: #1ab394;
-  padding: 15px 20px 15px 20px;
+  background: transparent;
+  /*background: #1ab394;*/
+  padding: 5px;
   border-radius: 0 0px 5px 5px;
   font-weight: 700;
   transition: all 0.3s ease-in-out 0s;
@@ -125,6 +127,7 @@ h1 {
   padding-bottom: 5px;
   border-bottom: 1px solid #e7eaec;
   border-radius: 0;
+  background-color: #f4f4f4;
 }
 .nav > li > a {
   padding: 25px 10px 15px 10px;
@@ -133,10 +136,10 @@ h1 {
   padding: 20px 10px;
 }
 .navbar.navbar-scroll .navbar-brand {
-  margin-top: 15px;
+  /*margin-top: 15px;*/
   border-radius: 5px;
   font-size: 12px;
-  padding: 10px;
+  padding: 7px;
   height: auto;
 }
 /* BACKGROUNDS SLIDER
@@ -769,4 +772,29 @@ fieldset[disabled] .btn-primary.active {
 }
 .pace-inactive {
   display: none;
+}
+/* MORE
+-------------------------------------------------- */
+div.pricing-title {
+  background: #1ab394;
+  bottom: 0;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  right: 15px;
+}
+
+div.pricing-desc {
+  font-size: 13px;
+  border-top: none;
+}
+
+img.fullwidth {
+   margin: 0;
+   padding: 0;
+   width: 100%;
+}
+
+img.logo {
+  width: 12em;
 }
