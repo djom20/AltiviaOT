@@ -798,3 +798,16 @@ img.fullwidth {
 img.logo {
   width: 12em;
 }
+
+section.floating {
+  background-color: #1ab394;
+  bottom: 0;
+  color: #fff;
+  padding: 10px 20px;
+  position: fixed;
+  right: 20px;
+}
+
+section.floating a, a:hover {
+  color: #fff;
+}
