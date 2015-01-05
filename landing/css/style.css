@@ -803,7 +803,7 @@ section.floating {
   background-color: #1ab394;
   bottom: 0;
   color: #fff;
-  padding: 10px 20px;
+  padding: 5px 20px 0;
   position: fixed;
   right: 20px;
 }
