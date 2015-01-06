@@ -1,5 +1,5 @@
 <div class="navbar-wrapper">
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <nav id="mynav" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -8,15 +8,15 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#page-top"><img class="logo" src="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/logotipo.png" alt=""></a>
+                <a ng-click="navigate('#page-top')" class="navbar-brand"><img class="logo" src="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/logotipo.png" alt=""></a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="page-scroll" href="#features">{{ lang.menu_1 }}</a></li>
-                    <li><a class="page-scroll" href="#team">{{ lang.menu_2 }}</a></li>
-                    <li><a class="page-scroll" href="#testimonials">{{ lang.menu_3 }}</a></li>
-                    <li><a class="page-scroll" href="#pricing">{{ lang.menu_4 }}</a></li>
-                    <li><a class="page-scroll" href="#contact">{{ lang.menu_5 }}</a></li>
+                    <li><a ng-click="navigate('#features')" class="page-scroll">{{ lang.menu_1 }}</a></li>
+                    <li><a ng-click="navigate('#team')" class="page-scroll">{{ lang.menu_2 }}</a></li>
+                    <li><a ng-click="navigate('#testimonials')" class="page-scroll">{{ lang.menu_3 }}</a></li>
+                    <li><a ng-click="navigate('#pricing')" class="page-scroll">{{ lang.menu_4 }}</a></li>
+                    <li><a ng-click="navigate('#contact')" class="page-scroll">{{ lang.menu_5 }}</a></li>
                 </ul>
             </div>
         </div>
@@ -169,9 +169,9 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <div class="team-member">
-                    <img src="img/avatar3.jpg" class="img-responsive img-circle img-small" alt="">
+                    <img src="img/avatar3.jpg" class="img-responsive img-circle" alt="">
                     <h4><span class="navy">Yaledys</span> Machacon</h4>
                     <p>Psicologa</p>
                     <ul class="list-inline social-icon">
@@ -184,9 +184,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <div class="team-member">
-                    <img src="img/avatar1.jpg" class="img-responsive img-circle" alt="">
+                    <img src="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/profile/128x128_jom.png" class="img-responsive img-circle" alt="">
                     <h4><span class="navy">Jonathan</span> Olier</h4>
                     <p>Ing. de Sistemas y Arquitecto de Software</p>
                     <ul class="list-inline social-icon">
@@ -195,21 +195,6 @@
                         <li><a href="https://www.facebook.com/DJom20"><i class="fa fa-facebook"></i></a>
                         </li>
                         <li><a href="https://co.linkedin.com/in/djom202/"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="team-member">
-                    <img src="img/avatar2.jpg" class="img-responsive img-circle img-small" alt="">
-                    <h4><span class="navy">Peter</span> Johnson</h4>
-                    <p>Front End</p>
-                    <ul class="list-inline social-icon">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
                         </li>
                     </ul>
                 </div>

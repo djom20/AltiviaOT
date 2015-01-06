@@ -811,3 +811,7 @@ section.floating {
 section.floating a, a:hover {
   color: #fff;
 }
+
+.page-scroll{
+  cursor: pointer;
+}

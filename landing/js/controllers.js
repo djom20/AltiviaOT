@@ -104,6 +104,12 @@ controllers.controller('IndexCtrl', ['$scope',
                 localStorage.lang   = lang;
             }
         };
+
+        $scope.navigate = function(id){
+            $('html, body').stop().animate({
+                scrollTop: $(id).offset().top
+            }, 500);
+        };
     }]
 );
 
