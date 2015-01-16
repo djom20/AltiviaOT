@@ -1,4 +1,4 @@
-window.lang = {
+window.$lang = {
 	"en": {
         "menu_1": "About Us",
         "menu_2": "Our Team",
@@ -36,7 +36,26 @@ window.lang = {
         "contact_text": "For any questions please contact or only use the data provided on this website.",
         "contact_text2": "Write us",
         "contact_text3": "Follow us on our social networks",
-        "contact_text4": "All rights reserved by AltiviaOT."
+        "contact_text4": "All rights reserved by AltiviaOT.",
+        "services7_title": "Development and Programming",
+        "services7_text": "TI will give peace of mind to work with the best developers and Web Apps Sleep well knowing that accounts with a team of engineers who are not improvising with your project We have experience in all major programming languages.",
+        "services8_title": "Intranets",
+        "services8_text": "Websites for companies and managing their internal communication.",
+        "services8_item1": "Contact your company e Involve them with the organization.",
+        "services8_item2": "It automates the management of applications and / or resources.",
+        "services8_item3": "Centralize your communication with your employees.",
+        "services9_title": "Apps - Html5",
+        "services9_text": "Seize the utlidad of smart phones.",
+        "services9_item1": "Communicate with your employees anytime, anywhere.",
+        "services9_item2": "Increase the productivity of your business.",
+        "services9_item3": "Manage your products quickly.",
+        "services9_item4": "Available for Android and iOS soon.",
+        "services10_title": "Hosting, Web Hosting",
+        "services10_text": "Host your site with a web agency at a low cost.",
+        "services10_item1": "A tailored service as you need it.",
+        "services10_item2": "We offer excellent support to their concerns.",
+        "services11_title": "Design to Order",
+        "services11_text": "The planning and measurement projects tailored is what we do best If you want to make a digital project that stands out, we will be a good team."
     },
     "es": {
         "menu_1": "Nostros",
@@ -77,6 +96,28 @@ window.lang = {
         "contact_text": "Para cualquier duda ó contacto por favor haga uso unicamente de los datos que se proporcionan en este sitio web.",
         "contact_text2": "Escribenos",
         "contact_text3": "Siguenos en nuestras redes sociales",
-        "contact_text4": "Todos los derechos reservados por AltiviaOT."
+        "contact_text4": "Todos los derechos reservados por AltiviaOT.",
+        "services7_title": "Desarrollo y Programación",
+        "services7_text": "Te va a dar tranquilidad trabajar con los mejores desarrolladores de Apps y Web. Duerme bien sabiendo que cuentas con un equipo de ingenieros que no está improvisando con tu proyecto. Tenemos experiencia en todos los principales lenguajes de programación.",
+        "services8_title": "Intranets",
+        "services8_text": "Páginas web para empresas y manejo de su comunicación interna.",
+        "services8_item1": "Comunícate con tu empresa e involúcralos con la organización.",
+        "services8_item2": "Automatiza el manejo de solicitudes y/o recursos.",
+        "services8_item3": "Centraliza tus comunicaciones con tus empleados.",
+        "services9_title": "Apps - Html5",
+        "services9_text": "Aprovecha la utlidad de los celulares inteligentes.",
+        "services9_item1": "Comunícate con tus empleados en cualquier momento y desde cualquier lugar.",
+        "services9_item2": "Aumenta la productividad de tu empresa.",
+        "services9_item3": "Gestiona tus productos rapidamente.",
+        "services9_item4": "Disponible para Android y proximamente iOS.",
+        "services10_title": "Hosting, Alojamiento Web",
+        "services10_text": "Aloje su página con una agencia web a un bajo costo.",
+        "services10_item1": "Un servicio a su medida, como usted lo necesita.",
+        "services10_item2": "Ofrecemos un excelente soporte a sus inquietudes.",
+        "services11_title": "Diseño a la Medida",
+        "services11_text": "La planeación y medición de proyectos a la medida es lo que mejor hacemos. Si quieres realizar un proyecto digital que se destaque, vamos a ser un buen equipo."
+        
     }
 }
+
+console.log('lang', $lang);

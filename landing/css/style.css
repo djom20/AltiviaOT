@@ -543,6 +543,9 @@ fieldset[disabled] .btn-primary.active {
 .p-xl {
   padding: 40px;
 }
+.p-t-b {
+  padding: 15px 0;
+}
 .m-xxs {
   margin: 2px 4px;
 }
@@ -775,13 +778,15 @@ fieldset[disabled] .btn-primary.active {
 }
 /* MORE
 -------------------------------------------------- */
-div.pricing-title {
+.pricing-title {
   background: #f89c0b;
-  bottom: 0;
+  top: 0;
   color: #fff;
   padding: 5px;
   position: absolute;
-  right: 15px;
+  right: 21px;
+  border-radius: 0 0 5px 5px;
+  text-decoration: none;
 }
 
 div.pricing-desc {
