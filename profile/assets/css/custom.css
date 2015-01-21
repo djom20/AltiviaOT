@@ -1,0 +1,219 @@
+/* DOM */
+body {
+	background-color: #11171c;
+	color: #fff;
+	overflow-x: hidden;
+}
+
+.sectionConteiner {
+	margin-top: 45px;
+	margin-bottom: 45px;
+}
+
+.thumbnail, .nav-pills>li>a {
+	cursor: pointer;
+	border-radius: 0;
+}
+
+/* ID's */
+
+#main_content {
+	color: #000;
+	background-color: #f7f7f7;
+	float: right;
+	min-height: 48em;
+}
+
+
+/* Sidebar Class */
+
+.perfil {
+	margin: 0 auto;
+	width: 130px;
+}
+
+div.img {
+	border-radius: 50%;
+	height: 9em;
+	overflow: hidden;
+	width: 9em;
+}
+
+.circle {
+	height: 12em;
+	margin-top: -15%;
+}
+
+#sidebar .my-info h1 {
+	font-size: 120%;
+}
+
+#sidebar .my-info h2 {
+	font-size: 100%;
+}
+
+#sidebar .my-info .social {
+	margin: 0 auto;
+	width: 90px;
+}
+
+#sidebar .my-info {
+	border-bottom: 1px solid #5e5e5e;
+	padding: 10px 0 40px;
+	text-align: center;
+}
+
+#sidebar .menus {
+	padding: 20px 5px;
+	text-align: center;
+}
+
+#sidebar .my-info .social a.twitter {
+	background-position: -25px 0px;
+}
+
+#sidebar .my-info .social a.facebook {
+	background-position: -50px 0px;
+}
+
+#sidebar .my-info .social a.googleplus {
+	background-position: -75px 0px;
+}
+
+#sidebar .my-info .social a {
+	background: url('../img/social-sprite.png') no-repeat;
+	float: left;
+	height: 25px;
+	margin: 0 2px;
+	text-indent: -9999px;
+	width: 25px;
+}
+
+
+/* Main Content Class */
+
+.row {
+	margin: 0;
+	padding: 0;
+}
+
+#main_content .project {
+	position: relative;
+}
+
+#main_content .project:after {
+	height: 30px;
+}
+
+#main_content .project.first:before {
+  top: 35px;
+}
+
+#main_content .project:before {
+	background: #eaeaea;
+	bottom: 0px;
+	content: "";
+	display: block;
+	left: 19px;
+	position: absolute;
+	top: 0px;
+	width: 3px;
+}
+
+.date {
+	font-size: 110%;
+	color: black;
+	margin-bottom: 10px;
+}
+
+.date:before {
+	background: #d35136;
+	border-radius: 50%;
+	border: 2px solid #f7f7f7;
+	content: "";
+	height: 11px;
+	left: 15px;
+	position: absolute;
+	top: 25px;
+	width: 11px;
+}
+
+.portfolio-info {
+	color: #5e5e5e;
+	min-height: 100%;
+	padding: 20px 20px 20px 40px;
+}
+
+.carousel {
+	margin-top: 24px;
+}
+
+
+/* Reloader Class */
+
+.loading {
+	bottom: 15px;
+	color: #c4c4c4;
+	left: 50%;
+	margin-left: -50px;
+	position: absolute;
+	width: 100px;
+}
+
+.loading img.rotate {
+	-webkit-animation-name: rotate;
+	-ms-animation-name: rotate;
+	animation-name: rotate;
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-ms-animation-iteration-count: infinite;
+	animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-ms-animation-timing-function: linear;
+	animation-timing-function: linear;
+}
+
+.portfolio-image img {
+	height: auto;
+	max-width: 610px;
+	width: 100%;
+}
+
+.portfolio-image {
+	float: left;
+	width: 70%;
+}
+
+.portfolio-image {
+	background: white;
+	border-left: 1px solid #dedede;
+	padding: 20px;
+	text-align: center;
+}
+
+.loading img {
+	height: auto;
+	vertical-align: middle;
+	width: auto;
+}
+
+@-webkit-keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+  }
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transform-origin: center center;
+    -ms-transform-origin: center center;
+    transform-origin: center center;
+  }
+}
