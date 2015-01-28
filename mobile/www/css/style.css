@@ -1,9 +1,17 @@
 /* Empty. Add your own CSS if you like */
-.scroll {
-	/*height: 100%;*/
-	padding-top: 292px;
+[nav-bar-transition="ios"] [nav-bar="active"] .bar, [nav-bar-transition="ios"] [nav-bar="entering"] .bar {
+	background: #000;
 }
 
-.view-container{
-	padding: 50px 10px;
+.bar.bar-stable .title, .bar-stable .button.button-clear {
+	color: #fff;
+}
+
+.bar.bar-stable {
+	border-color: #fff;
+	background-color: #000;
+}
+
+.view-container {
+	color: #009EE2;
 }
