@@ -1,17 +1,77 @@
 /* Empty. Add your own CSS if you like */
-[nav-bar-transition="ios"] [nav-bar="active"] .bar, [nav-bar-transition="ios"] [nav-bar="entering"] .bar {
+[nav-bar-transition="ios"] [nav-bar="active"] .bar, [nav-bar-transition="ios"] [nav-bar="entering"] .bar, .bar-header {
 	background: #000;
 }
 
-.bar.bar-stable .title, .bar-stable .button.button-clear {
+.bar.bar-stable .title, .bar-stable .button.button-clear, .bar .title { /* Color de la letra */
 	color: #fff;
 }
 
 .bar.bar-stable {
 	border-color: #fff;
 	background-color: #000;
+	background-image: none;
 }
 
 .view-container {
 	color: #009EE2;
 }
+
+.scroll, .scroll-content, .menu .scroll-content {
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(-45deg, #1e5799 0%, #207cca 20%, #207cca 20%, #2989d8 50%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#1e5799), color-stop(20%,#207cca), color-stop(20%,#207cca), color-stop(50%,#2989d8), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, #1e5799 0%,#207cca 20%,#207cca 20%,#2989d8 50%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg, #1e5799 0%,#207cca 20%,#207cca 20%,#2989d8 50%,#7db9e8 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg, #1e5799 0%,#207cca 20%,#207cca 20%,#2989d8 50%,#7db9e8 100%); /* IE10+ */
+	background: linear-gradient(135deg, #1e5799 0%,#207cca 20%,#207cca 20%,#2989d8 50%,#7db9e8 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	color: #fff;
+}
+
+#bg-login {
+	background-image: url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/wallpaper.jpg');
+	background-repeat: repeat-x;
+	height: 100%;
+	position: fixed;
+	top: 70%;
+	width: 100%
+}
+
+.logo {
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+
+/* Cambio de color al botton */
+.button.button-energized {
+	border-color: #F79C0B;
+	background-color: #F89C0B;
+	color: #fff;
+}
+
+@media screen and (max-width: 430px){
+	.logo {
+		width: 100%
+	}
+}
+
+/* efecto del menu */
+
+/*.pane {
+  -webkit-transition: all 200ms ease-in-out;
+  -moz-transition: all 200ms ease-in-out;
+  -ms-transition: all 200ms ease-in-out;
+  -o-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+  -webkit-backface-visibility: hidden;
+  -webkit-perspective: 1000;
+}
+
+.pane.inactive {
+  -webkit-transform: translate3d(160px,0,0) scale(0.7);
+  -moz-transform: translate3d(160px,0,0) scale(0.7);
+  -ms-transform: translate3d(160px,0,0) scale(0.7);
+  transform: translate3d(160px,0,0) scale(0.7);
+}*/

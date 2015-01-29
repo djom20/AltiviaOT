@@ -47,6 +47,15 @@ angular.module('starter.controllers', [])
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 })
 
+.controller('LoginCtrl', function($scope, $stateParams) {
+    $scope.sw = true;
+
+    $scope.change = function(value){
+      $scope.sw = value;
+      console.log(value);
+    }
+})
+
 .controller('IndexCtrl', function($scope, $stateParams) {
 
 });
