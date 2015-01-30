@@ -116,10 +116,10 @@ h1 {
   font-weight: 700;
   transition: all 0.3s ease-in-out 0s;
 }
-.navbar-scroll.navbar-default .nav li a {
+.navbar-scroll.navbar-default .nav > li > a {
   color: #676a6c;
 }
-.navbar-scroll.navbar-default .nav li a:hover {
+.navbar-scroll.navbar-default .nav > li > a:hover {
   color: #f89c0b;
 }
 .navbar-wrapper .navbar.navbar-scroll {
@@ -789,10 +789,54 @@ fieldset[disabled] .btn-primary.active {
   letter-spacing: 1px;
   text-transform: uppercase;
 }
-.pricing-hover:hover > .pricing-desc {
+#project1.pricing-hover:hover > .pricing-desc {
   /*background: #f89c0b;*/
-  background-color: rgba(248,156,11,0.6);
+  background-image: url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/portafolio/scaladmare/hover.jpg');
+  background-size: cover;
 }
+#project2.pricing-hover:hover > .pricing-desc {
+  /*background: #f89c0b;*/
+  background-image: url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/portafolio/scaladmare/hover.jpg');
+  background-size: cover;
+}
+#project3.pricing-hover:hover > .pricing-desc {
+  /*background: #f89c0b;*/
+  background-image: url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/portafolio/scaladmare/hover.jpg');
+  background-size: cover;
+}
+#project4.pricing-hover:hover > .pricing-desc {
+  /*background: #f89c0b;*/
+  background-image: url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/portafolio/scaladmare/hover.jpg');
+  background-size: cover;
+}
+#project5.pricing-hover:hover > .pricing-desc {
+  /*background: #f89c0b;*/
+  background-image: url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/portafolio/domiciliosco/hover.jpg');
+  background-size: cover;
+}
+#project6.pricing-hover:hover > .pricing-desc {
+  /*background: #f89c0b;*/
+  background-image: url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/portafolio/i2b/hover.jpg');
+  background-size: cover;
+}
+#project7.pricing-hover:hover > .pricing-desc {
+  /*background: #f89c0b;*/
+  background-image: url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/portafolio/scaladmare/hover.jpg');
+  background-size: cover;
+}
+#project8.pricing-hover:hover > .pricing-desc {
+  /*background: #f89c0b;*/
+  background-image: url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/portafolio/nuvola/hover.png');
+  background-size: cover;
+}
+#project9.pricing-hover:hover > .pricing-desc {
+  /*background: #f89c0b;*/
+  background-image: url('https://dl.dropboxusercontent.com/u/57960869/Altiviaot/portafolio/scaladmare/hover.jpg');
+  background-size: cover;
+}
+/*.pricing-hover:hover > .pricing-desc {
+  background-color: rgba(248,156,11,0.6);
+}*/
 .pricing-hover:hover .pricing-title {
   display: block;
 }

@@ -10,14 +10,24 @@
     $config->set('templatesFolder', 'Templates/');
     
     $config->set('Template', 'default.php');
+    $config->set('Environment', 'production');
+    $config->set('driver', 'mysql');
 
     //Vars URL
-    $config->set('BaseUrl', 'http://localhost/pilotos/api');
-    // $config->set('BaseUrl', 'http://54.173.110.192/pilotos');
-
-    //Data Base Configuration
-    $config->set('driver', 'mysql');
-    $config->set('dbhost', 'localhost');
-    $config->set('dbname', 'pilotos');
-    $config->set('dbuser', 'root');
-    $config->set('dbpass', 'q6td9.9fmq3');
+    switch ($config->get('Environment')) {
+        case 'development':
+            $config->set('BaseUrl', 'http://api.altiviaot.com/');
+            $config->set('dbhost', 'localhost');
+            $config->set('dbname', 'altiviao_brochure');
+            $config->set('dbuser', 'altiviao_dbuser');
+            $config->set('dbpass', 'q6td9.9fmq3');
+            break;
+        case 'production':
+            $config->set('BaseUrl', 'http://api.altiviaot.com/');
+            $config->set('dbhost', 'localhost');
+            $config->set('dbname', 'altiviao_brochure');
+            $config->set('dbuser', 'altiviao_dbuser');
+            $config->set('dbpass', 'q6td9.9fmq3');
+            break;
+    }
+    
