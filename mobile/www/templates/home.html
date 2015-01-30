@@ -1,6 +1,35 @@
-<ion-view view-title="AltiviaOT">
+<!-- <ion-view view-title="AltiviaOT">
   	<ion-content>
     	<h1>AltiviaOT</h1>
     	<p>Holaaaa</p>
   	</ion-content>
-</ion-view>
+</ion-view> -->
+
+<ion-nav-bar></ion-nav-bar>
+<ion-nav-view>
+	<ion-view>
+		<ion-nav-title>
+		  	<img src="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/logotipo.png">
+		</ion-nav-title>
+		<ion-content>
+		  	Some super content here!
+
+
+
+		  	<ion-tabs class="tabs-icon-top"> 
+			    <!-- My Tab -->
+			    <ion-tab title="My Expense" icon="icon ion-log-in" href="#/tab/dash"> 
+			        <ion-nav-view name="tab-dash"></ion-nav-view> 
+			    </ion-tab> 
+			    <!-- Friends Tab -->
+			    <ion-tab title="Roomie's" icon="icon ion-log-out" href="#/tab/friends">
+			        <ion-nav-view name="tab-friends"></ion-nav-view> 
+			    </ion-tab> 
+			    <!-- Account -->
+			    <ion-tab title="Account" icon="icon ion-ios7-gear" href="#/tab/account"> 
+			        <ion-nav-view name="tab-account"></ion-nav-view> 
+			    </ion-tab> 
+			</ion-tabs>
+		</ion-content>
+	</ion-view>
+</ion-nav-view>

@@ -1,14 +1,14 @@
-<ion-view>
+<!-- <ion-view>
     <ion-content>
-        <form ng-controller="LoginCtrl" ng-submit="doLogin()">
+        <form ng-submit="doLogin()">
             <div id="bg-login"></div>
-            <div class="list text-center" ng-shw="sw">
+            <div class="list text-center" ng-show="sw">
                 <img src="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/logotipo.png" class="logo">
                 
                 <label class="item">
-                    <button class="button button-block button-positive" type="button">Sign Up with Facebook</button> 
+                    <button class="button button-block button-positive" type="button">Sign Up with Facebook</button>
                     <label for="">Or</label>
-                    <button ng-click="change(false)" class="button button-block button-energized" type="button">Sign Up with Email</button>
+                    <button ng-controller="LoginCtrl" ng-click="change(false)" class="button button-block button-energized" type="button">Sign Up with Email</button>
                 </label>
             </div>
 
@@ -28,4 +28,21 @@
             </div>
         </form>
     </ion-content>
-</ion-view>
+</ion-view> -->
+
+
+<ion-pane>
+    <ion-content>
+        <ion-slide-box on-slide-changed="slideHasChanged($index)">
+            <ion-slide>
+                <div class="box blue"><h1>BLUE</h1></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box yellow"><h1>YELLOW</h1></div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box pink"><h1>PINK</h1></div>
+            </ion-slide>
+        </ion-slide-box>
+    </ion-content>
+</ion-pane>
