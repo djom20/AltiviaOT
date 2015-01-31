@@ -26,7 +26,7 @@ h1,h2,h3,h4{margin: 0;line-height: 1em;}
 
 h1{font:700 5em Roboto,Arial,Helvetica;margin:0.25em 0;text-transform: uppercase;}
 
-h2{font:300 2.5em Roboto,Arial,Helvetica;margin-bottom: 1.5em;}
+h2{font:10 2.5em Roboto,Arial,Helvetica;margin-bottom: 1.5em;}
 
 h3{font:300 2em Roboto,Arial,Helvetica;margin:2em 0 1em 0;}
 
@@ -321,4 +321,15 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 .text-centerUp {
 	text-align: center;
+}
+
+#logo {
+	width: 10em;
+}
+
+@media screen and (max-width: 767px){
+	#logo {
+		margin-left: 5px;
+		width: 7em;
+	}
 }

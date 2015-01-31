@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#home" style="padding: 0; padding-top: 7px;">
-                        <img src="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/logotipo.png" alt="logo" style="width: 10em;">
+                        <img id="logo" src="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/logotipo.png">
                     </a>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -18,7 +18,7 @@
                         <!-- <li class="active"><a href="#works">Home</a></li>
                         <li ><a href="#about">About</a></li>
                         <li ><a href="#partners">Partners</a></li> -->
-                        <li ><a href="#contact">Contacto</a></li>
+                        <li><a href="#contact">Contacto</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,9 +32,9 @@
         <figcaption>
             <h2>{{ p.project.name }}</h2>
             <p>
-                <a href="https://dl.dropbox.com/u/57960869/Altiviaot/portafolio/amb/0.jpg" alt="img01" title="1" data-gallery>Ver</a>
+                <a target="_blank" href="{{ p.project.url }}">Ver</a>
             
-                <a href="https://dl.dropbox.com/u/57960869/Altiviaot/portafolio/amb/0.jpg" alt="img01" title="1" data-gallery>Detalle</a>
+                <!-- <a href="https://dl.dropbox.com/u/57960869/Altiviaot/portafolio/amb/0.jpg" alt="img01" title="1" data-gallery>Detalle</a> -->
             </p>
         </figcaption>
     </figure>
@@ -58,13 +58,13 @@
 
 <div class="footer text-center spacer">
     <p>
-        <a href="#">
+        <a target="_blank" href="https://www.facebook.com/pages/Altiviaot/102802866559001">
             <i class="fa fa-facebook fa-2x"></i>
         </a>
-        <a href="#">
+        <a target="_blank" href="http://instagram.com/altiviaot/">
             <i class="fa fa-instagram fa-2x"></i>
         </a>
-        <a href="#">
+        <a target="_blank" href="https://twitter.com/AltiviaOT">
             <i class="fa fa-twitter fa-2x"></i>
         </a>
     </p>
