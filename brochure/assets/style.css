@@ -1,7 +1,5 @@
 body {	color:#666;	font:300 15px/15px Roboto,Arial,Helvetica;background-color:#fff;-webkit-font-smoothing:antialiased;}
 
-
-
 a{color:#00a9c6; text-decoration:none;}
 
 a:hover{color:#666;}
@@ -218,7 +216,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 
 	
 
-	.grid figure h2{font: 700 1.5em Roboto,Arial,Helvetica;}
+	.grid figure h2{font: 600 1.5em Roboto,Arial,Helvetica;}
 
 	figure.effect-oscar figcaption{padding: 12%;}
 
@@ -319,4 +317,8 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .navbar-default {
 	background-color: #f4f4f4;
 	border-color: #fff;
+}
+
+.text-centerUp {
+	text-align: center;
 }

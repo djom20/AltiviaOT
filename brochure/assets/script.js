@@ -5,8 +5,6 @@
         $(".scroll li").removeClass('active');
         $(this).parents('li').toggleClass('active');
     });
-
-    loadProjects();
 });
 
 var wow = new WOW(
@@ -29,11 +27,3 @@ $('.carousel').swipe( {
     },
     allowPageScroll: 'vertical'
 });
-
-function loadProjects(){
-    $.get(LinkServer.Url('brochure', 'getProjects'), function(data){
-        if(data._code === 200) {
-            console.log(data._response);
-        }
-    });
-}

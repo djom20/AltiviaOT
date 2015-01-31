@@ -10,7 +10,7 @@ class BrochureController extends ControllerBase {
         );
 
         for($i=0; $i<count($projetcs); $i++) {
-            $params[$i]['projetc'] = $projetcs[$i];
+            $params[$i]['project'] = $projetcs[$i];
 
         	$params[$i]['galery'] = Partial::arrayNames($galerys->select(array (
                 ':idproject' => $projetcs[$i]['idproject']

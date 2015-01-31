@@ -1,0 +1,75 @@
+<div class="navbar-wrapper">
+    <div class="container">
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="top-nav">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#home" style="padding: 0; padding-top: 7px;">
+                        <img src="https://dl.dropboxusercontent.com/u/57960869/Altiviaot/logotipo.png" alt="logo" style="width: 10em;">
+                    </a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right scroll">
+                        <!-- <li class="active"><a href="#works">Home</a></li>
+                        <li ><a href="#about">About</a></li>
+                        <li ><a href="#partners">Partners</a></li> -->
+                        <li ><a href="#contact">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="works" class=" clearfix grid">
+    <figure class="effect-oscar" ng-repeat="p in projects">
+        <img src="{{ p.galery[0].url }}" alt="img01"/>
+        <figcaption>
+            <h2>{{ p.project.name }}</h2>
+            <p>
+                <a href="https://dl.dropbox.com/u/57960869/Altiviaot/portafolio/amb/0.jpg" alt="img01" title="1" data-gallery>Ver</a>
+            
+                <a href="https://dl.dropbox.com/u/57960869/Altiviaot/portafolio/amb/0.jpg" alt="img01" title="1" data-gallery>Detalle</a>
+            </p>
+        </figcaption>
+    </figure>
+</div>
+
+<div id="contact" class="spacer">
+    <div class="container contactform center">
+        <h2 class="text-centerUp">Póngase en contacto para iniciar su proyecto</h2>
+        <div class="row">
+            <div class="col-sm-6 col-sm-offset-3 col-xs-12">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Empresa">
+                <textarea rows="5" placeholder="Mensaje"></textarea>
+                <button class="btn btn-warning">
+                    <i class="fa fa-paper-plane"></i> Enviar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer text-center spacer">
+    <p>
+        <a href="#">
+            <i class="fa fa-facebook fa-2x"></i>
+        </a>
+        <a href="#">
+            <i class="fa fa-instagram fa-2x"></i>
+        </a>
+        <a href="#">
+            <i class="fa fa-twitter fa-2x"></i>
+        </a>
+    </p>
+    Todos los derechos reservados por AltiviaOT © 2014 - 2015.
+</div>
+<a href="#works" class="gototop ">
+    <i class="fa fa-angle-up  fa-3x"></i>
+</a>
