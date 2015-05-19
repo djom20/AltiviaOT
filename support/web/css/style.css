@@ -201,7 +201,7 @@ body{
 	width: 50%;
 
 	/*margin-top:8em;*/
-	margin-top: 2em;
+	margin-top: 6em;
 
 }
 
@@ -361,12 +361,11 @@ body{
 
 .img-banner-pic {
 
-	float:left;
-
-	margin-left:5%;
-
-	/*width:45%;*/
+	float: left;
+	margin-left: 14%;
+	/* width: 45%; */
 	width: 26%;
+	margin-top: 104px;
 
 }
 
@@ -957,7 +956,7 @@ body{
 .copy{
 
 	margin-top:15px;
-
+	margin-right: 12px;
 	text-align:right;
 
 }
